@@ -25,7 +25,7 @@ fun main() {
     var schoolLoc2: String? = "Grace Avenue, Quezon City"
     var schoolLoc3: String? = null
     var yearAttended1: Int? = 2005
-    var yearAttended2: Int? = 1995
+    var yearAttended2: Int? = 1945
     var yearAttended3: Int? = null
     var degreeReceived1: String? = "BS Mechanical Engineering"
     var degreeReceived2: String? = "High School"
@@ -34,7 +34,10 @@ fun main() {
     var major2: String? = null
     var major3: String? = null
     var otherLicenses: String? = "Registered Mechanical Engineer"
-    var age: Int? = 34
+    var age: Int? = 17
+    var birthDate: String? = null
+    val validAge: IntRange = 18 .. 65
+    val validYear: IntRange = 1950 .. 2022
 
     if (positionApplication==null) println("The field for Position you are applying for is not filled")
     if (dateAvailable==null) println("The field for Date Available is not filled")
@@ -57,7 +60,7 @@ fun main() {
     if (schoolLoc1==null) println("The field for your 1st School Location is not filled")
     if (yearAttended1 == null) println("The field for your year attended at your 1st school is not filled")
     else {
-        if (yearAttended1 !in 1950..2022) println("Invalid School Year for first school attended")
+        if (yearAttended1 !in validYear) println("Invalid School Year for first school attended")
     }
     if (degreeReceived1==null) println("The field for your degree from your 1st school is not filled")
     if (major1==null) println("The field for your major from your 1st school is not filled")
@@ -65,7 +68,7 @@ fun main() {
     if (schoolLoc2==null) println("The field for your 2nd School Location is not filled")
     if (yearAttended2 == null) println("The field for your year attended at your 2nd school is not filled")
     else {
-        if (yearAttended2 !in 1950..2022) println("Invalid School Year for second school attended")
+        if (yearAttended2 !in validYear) println("Invalid School Year for second school attended")
     }
     if (degreeReceived2==null) println("The field for your degree from your 2nd school is not filled")
     if (major2==null) println("The field for your major from your 2nd school is not filled")
@@ -73,20 +76,21 @@ fun main() {
     if (schoolLoc3==null) println("The field for your 3rd School Location is not filled")
     if (yearAttended3 == null) println("The field for your year attended at your 3rd school is not filled")
     else {
-        if (yearAttended3 !in 1950..2022) println("Invalid School Year for third school attended")
+        if (yearAttended3 !in validYear) println("Invalid School Year for third school attended")
     }
     if (degreeReceived3==null) println("The field for your degree from your 3rd school is not filled")
     if (major3==null) println("The field for your major from your 3rd school is not filled")
     if (otherLicenses==null) println("The field asking for other licenses you might have is not filled")
     if (age==null) println("The field asking for your age is not filled")
     else {
-        if (age !in 18..65) println("Your age in not fit for the application")
+        if (age !in validAge) println("Your age in not fit for the application")
     }
+    if (birthDate==null) println("The field asking for your birth date is not filled.")
 
-    /*    println("-----------------------------------------------------------------------------------------")
+    /* println("-----------------------------------------------------------------------------------------")
 
         var x = 0
-        val dataList = listOf(positionApplication, dateAvailable, desiredSalary, lastName, firstName, middleName, address, cityAddress, stateAddress, zipAdd, homePhone, cellPhone, emailAdd, socialSecurityNum, usCitizen, felony, drugTest, schoolName1, schoolLoc1, yearAttended1, degreeReceived1, major1, schoolName2, schoolLoc2, yearAttended2, degreeReceived2, major2, schoolName3, schoolLoc3, yearAttended3, degreeReceived3, major3, otherLicenses)
+        val dataList = listOf(positionApplication, dateAvailable, desiredSalary, lastName, firstName, middleName, address, cityAddress, stateAddress, zipAdd, homePhone, cellPhone, emailAdd, socialSecurityNum, usCitizen, felony, drugTest, schoolName1, schoolLoc1, yearAttended1, degreeReceived1, major1, schoolName2, schoolLoc2, yearAttended2, degreeReceived2, major2, schoolName3, schoolLoc3, yearAttended3, degreeReceived3, major3, otherLicenses, age, birthDate)
 
         for (data in dataList) {
             if(data == null) {
@@ -124,8 +128,23 @@ fun main() {
                     30 -> println("The field for your degree from your 3rd school is not filled")
                     31 -> println("The field for your major from your 3rd school is not filled")
                     32 -> println("The field asking for other licenses you might have is not filled")
+                    33 -> println("The field for your age is not filled.")
+                    34 -> println("The field asking for your birth date is not filled.")
+                }
+            } else {
+                if (data !in validYear) {
+                    when (x) {
+                        19 -> println("Invalid School Year for first school attended")
+                        24 -> println("Invalid School Year for second school attended")
+                        29 -> println("Invalid School Year for third school attended")
+                    }
+                }
+                if (data !in validAge) {
+                    when (x) {
+                        33 -> println("Your age in not fit for the application")
+                    }
                 }
             }
             x += 1
-        }*/
+        } */
 }
