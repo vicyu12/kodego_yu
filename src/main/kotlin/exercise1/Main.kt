@@ -41,7 +41,6 @@ fun main() {
     var birthDay: Int = 12
     var birthMonth: Int = 3
     var birthYear: Int = 1988
-    var birthDate = Date(birthYear-1900,birthMonth-1,birthDay)
     val validAge: IntRange = 18 .. 65
     val validYear: IntRange = 1950 .. 2022
 //    val dateNow: Date = LocalDate.now()
@@ -94,7 +93,11 @@ fun main() {
     else {
         if (age !in validAge) println("Your age in not fit for the application")
     }
-    if (birthDate==null) println("The field asking for your birth date is not filled.")
+    if (birthYear==null || birthMonth==null || birthDay==null) {
+        println("The field asking for your birth date is not filled.")
+    } else {
+        var birthDate = Date(birthYear-1900,birthMonth-1,birthDay)
+    }
 
     /* println("-----------------------------------------------------------------------------------------")
 
