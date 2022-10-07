@@ -38,9 +38,9 @@ fun main() {
     var major3: String? = null
     var otherLicenses: String? = "Registered Mechanical Engineer"
     var age: Int? = 17
-    var birthDay: Int = 12
-    var birthMonth: Int = 3
-    var birthYear: Int = 1988
+    var birthDay: Int? = 12
+    var birthMonth: Int? = 3
+    var birthYear: Int? = 1988
     val validAge: IntRange = 18 .. 65
     val validYear: IntRange = 1950 .. 2022
 //    val dateNow: Date = LocalDate.now()
