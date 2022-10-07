@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="edited Main.kt to include exercise1">
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="added birthdate to Main.kt&#10;updated the when function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercise1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercise1/Main.kt" afterDir="false" />
     </list>
@@ -102,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665061448516</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="added birthdate to Main.kt&#10;updated the when function">
+      <created>1665142652991</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665142652991</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +128,7 @@
     <MESSAGE value="added exercise1 package&#10;added Main.kt in exercise1" />
     <MESSAGE value="edited exercise1 package" />
     <MESSAGE value="edited Main.kt to include exercise1" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited Main.kt to include exercise1" />
+    <MESSAGE value="added birthdate to Main.kt&#10;updated the when function" />
+    <option name="LAST_COMMIT_MESSAGE" value="added birthdate to Main.kt&#10;updated the when function" />
   </component>
 </project>
