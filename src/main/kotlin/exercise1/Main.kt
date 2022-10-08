@@ -1,6 +1,7 @@
 package exercise1
 
 import java.time.LocalDate
+import java.time.LocalDateTime
 import java.util.*
 
 fun main() {
@@ -43,9 +44,8 @@ fun main() {
     var birthYear: Int? = null
     val validAge: IntRange = 18 .. 65
     val validYear: IntRange = 1950 .. 2022
-//    val dateNow: Date = LocalDate.now()
-//    var ageBirthdate: Int? = null
-//    ageBirthdate = dateNow - birthDate
+//    val dateNow = LocalDateTime.now()
+//    var ageBirthdate = null
 
     if (positionApplication==null) println("The field for Position you are applying for is not filled")
     if (dateAvailable==null) println("The field for Date Available is not filled")
@@ -96,7 +96,7 @@ fun main() {
     if (birthYear==null || birthMonth==null || birthDay==null) {
         println("The field asking for your birth date is not filled.")
     } else {
-        var birthDate = Date(birthYear-1900,birthMonth-1,birthDay)
+        var birthDate = LocalDateTime.of(birthYear,birthMonth,birthDay,0,0)
     }
 
     /* println("-----------------------------------------------------------------------------------------")
