@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="added birthdate to Main.kt&#10;updated the when function">
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="change birthdate to nullable">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01a/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercise1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercise1/Main.kt" afterDir="false" />
     </list>
@@ -109,7 +110,28 @@
       <option name="project" value="LOCAL" />
       <updated>1665142652991</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="change birthdate type">
+      <created>1665143640894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1665143640894</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change birthdate type">
+      <created>1665143835857</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1665143835857</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change birthdate to nullable">
+      <created>1665143944126</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1665143944126</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +151,8 @@
     <MESSAGE value="edited exercise1 package" />
     <MESSAGE value="edited Main.kt to include exercise1" />
     <MESSAGE value="added birthdate to Main.kt&#10;updated the when function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added birthdate to Main.kt&#10;updated the when function" />
+    <MESSAGE value="change birthdate type" />
+    <MESSAGE value="change birthdate to nullable" />
+    <option name="LAST_COMMIT_MESSAGE" value="change birthdate to nullable" />
   </component>
 </project>

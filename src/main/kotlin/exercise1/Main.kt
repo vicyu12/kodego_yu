@@ -4,48 +4,48 @@ import java.time.LocalDate
 import java.util.*
 
 fun main() {
-    var positionApplication: String? = "VP of Engineering"
+    var positionApplication: String? = null
     var dateAvailable: String? = null
-    var desiredSalary: Int? = 150_000
-    var lastName: String? = "Yu"
-    var firstName: String? = "Victor Jr"
+    var desiredSalary: Int? = null
+    var lastName: String? = null
+    var firstName: String? = null
     var middleName: String? = null
-    var address: String? = "Blk3 Lot16 Camella Provence P9"
-    var cityAddress: String? = "Plaridel"
-    var stateAddress: String? = "Bulacan"
-    var zipAdd: Int? = 3004
+    var address: String? = null
+    var cityAddress: String? = null
+    var stateAddress: String? = null
+    var zipAdd: Int? = null
     var homePhone: String? = null
-    var cellPhone: String? = "09178580469"
-    var emailAdd: String? = "vicyu123@gmail.com"
-    var socialSecurityNum: String? = "03-1234-5678-09"
-    var usCitizen: Boolean? = false
-    var felony: Boolean? = false
+    var cellPhone: String? = null
+    var emailAdd: String? = null
+    var socialSecurityNum: String? = null
+    var usCitizen: Boolean? = null
+    var felony: Boolean? = null
     var drugTest: Boolean? = null
-    var schoolName1: String? = "De La Salle University - Manila"
-    var schoolName2: String? = "Grace Christian High School"
+    var schoolName1: String? = null
+    var schoolName2: String? = null
     var schoolName3: String? = null
-    var schoolLoc1: String? = "2401 Taft Ave"
-    var schoolLoc2: String? = "Grace Avenue, Quezon City"
+    var schoolLoc1: String? = null
+    var schoolLoc2: String? = null
     var schoolLoc3: String? = null
-    var yearAttended1: Int? = 2005
-    var yearAttended2: Int? = 1945
+    var yearAttended1: Int? = null
+    var yearAttended2: Int? = null
     var yearAttended3: Int? = null
-    var degreeReceived1: String? = "BS Mechanical Engineering"
-    var degreeReceived2: String? = "High School"
+    var degreeReceived1: String? = null
+    var degreeReceived2: String? = null
     var degreeReceived3: String? = null
-    var major1: String? = "Mechatronics"
+    var major1: String? = null
     var major2: String? = null
     var major3: String? = null
-    var otherLicenses: String? = "Registered Mechanical Engineer"
-    var age: Int? = 17
-    var birthDay: Int? = 12
-    var birthMonth: Int? = 3
-    var birthYear: Int? = 1988
+    var otherLicenses: String? = null
+    var age: Int? = null
+    var birthDay: Int? = null
+    var birthMonth: Int? = null
+    var birthYear: Int? = null
     val validAge: IntRange = 18 .. 65
     val validYear: IntRange = 1950 .. 2022
 //    val dateNow: Date = LocalDate.now()
 //    var ageBirthdate: Int? = null
-//    println(dateNow - birthDate)
+//    ageBirthdate = dateNow - birthDate
 
     if (positionApplication==null) println("The field for Position you are applying for is not filled")
     if (dateAvailable==null) println("The field for Date Available is not filled")
