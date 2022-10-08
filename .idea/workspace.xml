@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="change birthdate to nullable">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01a/Main.kt" afterDir="false" />
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="activity complete">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01c/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/exercise1/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/exercise1/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +130,35 @@
       <option name="project" value="LOCAL" />
       <updated>1665143944126</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="changed all var values to null">
+      <created>1665193061414</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665193061414</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Initial Commit Activity01A">
+      <created>1665193086936</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1665193086936</updated>
+    </task>
+    <task id="LOCAL-00012" summary="fixes">
+      <created>1665209086947</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1665209086947</updated>
+    </task>
+    <task id="LOCAL-00013" summary="activity complete">
+      <created>1665214659392</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1665214659392</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +180,10 @@
     <MESSAGE value="added birthdate to Main.kt&#10;updated the when function" />
     <MESSAGE value="change birthdate type" />
     <MESSAGE value="change birthdate to nullable" />
-    <option name="LAST_COMMIT_MESSAGE" value="change birthdate to nullable" />
+    <MESSAGE value="changed all var values to null" />
+    <MESSAGE value="Initial Commit Activity01A" />
+    <MESSAGE value="fixes" />
+    <MESSAGE value="activity complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="activity complete" />
   </component>
 </project>
