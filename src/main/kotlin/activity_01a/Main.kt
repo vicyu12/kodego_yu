@@ -6,8 +6,6 @@ The data will be used to send updates regarding the classes. -> done. Phone Numb
 
 There is also a need to know the progress of the students during the progress of this course. -> done.
 
-
-
 List down all data that can be used to implement this. Use the proper data types.
  */
 
