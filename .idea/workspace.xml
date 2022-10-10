@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="activity complete" />
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="activity complete">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/codingbat/CigarParty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/codingbat/CloseFar.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/codingbat/DateFashion.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/codingbat/MakeBricks.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +47,28 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.CloseFarKt">
+    <configuration name="CigarPartyKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingbat.CigarPartyKt" />
+      <module name="KodeGoExercisesYu.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloseFarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingbat.CloseFarKt" />
+      <module name="KodeGoExercisesYu.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DateFashionKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingbat.DateFashionKt" />
+      <module name="KodeGoExercisesYu.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise1.MainKt" />
       <module name="KodeGoExercisesYu.main" />
@@ -49,8 +76,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MakeBricksKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="codingbat.MakeBricksKt" />
+      <module name="KodeGoExercisesYu.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.CloseFarKt" />
+        <item itemvalue="Kotlin.MakeBricksKt" />
+        <item itemvalue="Kotlin.DateFashionKt" />
+        <item itemvalue="Kotlin.CigarPartyKt" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
@@ -162,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665215374789</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="activity complete">
+      <created>1665243414703</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1665243414703</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
