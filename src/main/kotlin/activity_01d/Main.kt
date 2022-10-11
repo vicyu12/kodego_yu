@@ -44,7 +44,7 @@ fun main() {
     numericCheck3 = monetaryAmount3?.matches("-?\\d+(\\.\\d{2})?".toRegex())
     numericCheck4 = monetaryAmount4?.matches("-?\\d+(\\.\\d{2})?".toRegex())
     numericCheck5 = monetaryAmount5?.matches("-?\\d+(\\.\\d{2})?".toRegex())
-    intCheck = dividedByThis?.matches("-?\\d".toRegex())
+    intCheck = dividedByThis?.matches("-?\\d+".toRegex())
 
     //-----ERROR HANDLING-----
     if (monetaryAmount1 == null || monetaryAmount2 == null || monetaryAmount3 == null || monetaryAmount4 == null || monetaryAmount5 == null || dividedByThis == null || monetaryAmount1 == "" || monetaryAmount2 == "" || monetaryAmount3 == "" || monetaryAmount4 == "" || monetaryAmount5 == "" || dividedByThis == "") {
