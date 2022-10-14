@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Removed REGEX and played around with loops">
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Added Kotlin logger">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01d/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01d/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +253,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665677404812</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Optimized a little">
+      <created>1665749905634</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1665749905634</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added Kotlin logger">
+      <created>1665749925759</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1665749925759</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +299,8 @@
     <MESSAGE value="removed class activities" />
     <MESSAGE value="fixes" />
     <MESSAGE value="Removed REGEX and played around with loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed REGEX and played around with loops" />
+    <MESSAGE value="Optimized a little" />
+    <MESSAGE value="Added Kotlin logger" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Kotlin logger" />
   </component>
 </project>

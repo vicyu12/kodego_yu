@@ -1,10 +1,13 @@
 package activity_01d
 
+import mu.KotlinLogging
+
+private val logger = KotlinLogging.logger {}
 fun main() {
 
     //-----INTRO-----
-    println("You will need to enter 5 monetary amounts that will be added together.")
-    println("The sum of the 5 amounts you entered will then be divided by an integer you will input.")
+    logger.info ("You will need to enter 5 monetary amounts that will be added together.")
+    logger.info ("The sum of the 5 amounts you entered will then be divided by an integer you will input.")
     println()
 
     //-----VARIABLES-----
@@ -32,15 +35,15 @@ fun main() {
 
     do {
         //-----INPUTS-----
-        print("Please enter the first monetary amount: ")
+        logger.info ("Please enter the first monetary amount: ")
         do {
             monetaryAmount1 = readLine()
             decimalCounter = 0
             if (monetaryAmount1 == null || monetaryAmount1 == "") {
                 validInput = false
                 allCharAnalyzed = true
-                println("You did not enter anything.")
-                print("Please re-enter the first monetary amount: ")
+                logger.error ("You did not enter anything.")
+                logger.info ("Please re-enter the first monetary amount: ")
             } else {
                 for (index in monetaryAmount1.indices) {
                     var char = monetaryAmount1[index]
@@ -82,23 +85,23 @@ fun main() {
                     }
                 }
                 if (!validInput) {
-                    println("Your input was not a monetary value. ")
-                    print("Please re-enter the first monetary amount: ")
+                    logger.error ("Your input was not a monetary value. ")
+                    logger.info ("Please re-enter the first monetary amount: ")
                 }
             }
         } while (!allCharAnalyzed || !validInput)
 //        validInput = false
 //        allCharAnalyzed = false
 //        decimalCounter = 0
-        print("Please enter the second monetary amount: ")
+        logger.info ("Please enter the second monetary amount: ")
         do {
             monetaryAmount2 = readLine()
             decimalCounter = 0
             if (monetaryAmount2 == null || monetaryAmount2 == "") {
                 validInput = false
                 allCharAnalyzed = true
-                println("You did not enter anything.")
-                print("Please re-enter the second monetary amount: ")
+                logger.error ("You did not enter anything.")
+                logger.info ("Please re-enter the second monetary amount: ")
             } else {
                 for (index in monetaryAmount2.indices) {
                     var char = monetaryAmount2[index]
@@ -140,23 +143,23 @@ fun main() {
                     }
                 }
                 if (!validInput) {
-                    println("Your input was not a monetary value. ")
-                    print("Please re-enter the second monetary amount: ")
+                    logger.error ("Your input was not a monetary value. ")
+                    logger.info ("Please re-enter the second monetary amount: ")
                 }
             }
         } while (!allCharAnalyzed || !validInput)
 //        validInput = false
 //        allCharAnalyzed = false
 //        decimalCounter = 0
-        print("Please enter the third monetary amount: ")
+        logger.info ("Please enter the third monetary amount: ")
         do {
             monetaryAmount3 = readLine()
             decimalCounter = 0
             if (monetaryAmount3 == null || monetaryAmount3 == "") {
                 validInput = false
                 allCharAnalyzed = true
-                println("You did not enter anything.")
-                print("Please re-enter the third monetary amount: ")
+                logger.error ("You did not enter anything.")
+                logger.info ("Please re-enter the third monetary amount: ")
             } else {
                 for (index in monetaryAmount3.indices) {
                     var char = monetaryAmount3[index]
@@ -198,23 +201,23 @@ fun main() {
                     }
                 }
                 if (!validInput) {
-                    println("Your input was not a monetary value. ")
-                    print("Please re-enter the third monetary amount: ")
+                    logger.error ("Your input was not a monetary value. ")
+                    logger.info ("Please re-enter the third monetary amount: ")
                 }
             }
         } while (!allCharAnalyzed || !validInput)
 //        validInput = false
 //        allCharAnalyzed = false
 //        decimalCounter = 0
-        print("Please enter the fourth monetary amount: ")
+        logger.info ("Please enter the fourth monetary amount: ")
         do {
             monetaryAmount4 = readLine()
             decimalCounter = 0
             if (monetaryAmount4 == null || monetaryAmount4 == "") {
                 validInput = false
                 allCharAnalyzed = true
-                println("You did not enter anything.")
-                print("Please re-enter the fourth monetary amount: ")
+                logger.error ("You did not enter anything.")
+                logger.info ("Please re-enter the fourth monetary amount: ")
             } else {
                 for (index in monetaryAmount4.indices) {
                     var char = monetaryAmount4[index]
@@ -248,7 +251,6 @@ fun main() {
                                         validInput = false
                                     }
                                 }
-
                             }
                         }
                     }
@@ -257,23 +259,23 @@ fun main() {
                     }
                 }
                 if (!validInput) {
-                    println("Your input was not a monetary value. ")
-                    print("Please re-enter the fourth monetary amount: ")
+                    logger.error ("Your input was not a monetary value. ")
+                    logger.info ("Please re-enter the fourth monetary amount: ")
                 }
             }
         } while (!allCharAnalyzed || !validInput)
 //        validInput = false
 //        allCharAnalyzed = false
 //        decimalCounter = 0
-        print("Please enter the fifth monetary amount: ")
+        logger.info ("Please enter the fifth monetary amount: ")
         do {
             monetaryAmount5 = readLine()
             decimalCounter = 0
             if (monetaryAmount5 == null || monetaryAmount5 == "") {
                 validInput = false
                 allCharAnalyzed = true
-                println("You did not enter anything.")
-                print("Please re-enter the fifth monetary amount: ")
+                logger.error ("You did not enter anything.")
+                logger.info ("Please re-enter the fifth monetary amount: ")
             } else {
                 for (index in monetaryAmount5.indices) {
                     var char = monetaryAmount5[index]
@@ -315,21 +317,21 @@ fun main() {
                     }
                 }
                 if (!validInput) {
-                    println("Your input was not a monetary value. ")
-                    print("Please re-enter the fifth monetary amount: ")
+                    logger.error ("Your input was not a monetary value. ")
+                    logger.info ("Please re-enter the fifth monetary amount: ")
                 }
             }
         } while (!allCharAnalyzed || !validInput)
 //        validInput = false
 //        allCharAnalyzed = false
-        print("Divide the value by how many? ")
+        logger.info ("Divide the value by how many? ")
         do {
             dividedByThis = readLine()
             if (dividedByThis == null || dividedByThis == "") {
                 validInput = false
                 allCharAnalyzed = true
-                println("You did not enter anything.")
-                print("Please re-enter the divisor: ")
+                logger.error ("You did not enter anything.")
+                logger.info ("Please re-enter the divisor: ")
             } else {
                 for (index in dividedByThis.indices) {
                     var char = dividedByThis[index]
@@ -353,8 +355,8 @@ fun main() {
                     }
                 }
                 if (!validInput) {
-                    println("Your input was not an integer. ")
-                    print("Please re-enter the divisor (integer): ")
+                    logger.error ("Your input was not an integer. ")
+                    logger.info ("Please re-enter the divisor (integer): ")
                 }
             }
         } while (!allCharAnalyzed || !validInput)
@@ -362,32 +364,32 @@ fun main() {
         //-----OPERATION-----
         answer =
             (monetaryAmount1!!.toDouble() + monetaryAmount2!!.toDouble() + monetaryAmount3!!.toDouble() + monetaryAmount4!!.toDouble() + monetaryAmount5!!.toDouble()) / dividedByThis!!.toDouble()
-        println("The answer is $answer.")
+        logger.info ("The answer is $answer.")
         println()
-        print("Would you like to do another set? [Y/N] ")
+        logger.info ("Would you like to do another set? [Y/N] ")
         wantMore = readLine()
         if (wantMore == null || wantMore == "") {
-            println("I'll take no response as a NO. B-bye!")
+            logger.error ("I'll take no response as a NO. B-bye!")
             more = false
         } else when(wantMore.lowercase()) {
             "y" -> {
-                println("One more round!!!")
+                logger.info ("One more round!!!")
                 println()
                 more = true
             }
             "n" -> {
-                println("Thank you for using this program!")
+                logger.info ("Thank you for using this program!")
                 more = false
             }
             else -> {
-                println("Is this a test? Did I pass? :D I'm really tired, so I'm ending the program now.")
+                logger.error ("Is this a test? Did I pass? :D I'm really tired, so I'm ending the program now.")
                 more = false
             }
         }
 
     }while (more)
     println()
-    println("Activity 01-D | Submitted by: Victor Yu Jr.")
+    logger.debug ("Activity 01-D | Submitted by: Victor Yu Jr.")
 
 //    SCRAPPING THIS AND USING STUFF LEARNED IN CLASS
 //    //-----CHECK IF MONETARY AMOUNT AND DIVIDED BY INT-----
