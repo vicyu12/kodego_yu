@@ -87,9 +87,9 @@ fun main() {
                 }
             }
         } while (!allCharAnalyzed || !validInput)
-        validInput = false
-        allCharAnalyzed = false
-        decimalCounter = 0
+//        validInput = false
+//        allCharAnalyzed = false
+//        decimalCounter = 0
         print("Please enter the second monetary amount: ")
         do {
             monetaryAmount2 = readLine()
@@ -145,9 +145,9 @@ fun main() {
                 }
             }
         } while (!allCharAnalyzed || !validInput)
-        validInput = false
-        allCharAnalyzed = false
-        decimalCounter = 0
+//        validInput = false
+//        allCharAnalyzed = false
+//        decimalCounter = 0
         print("Please enter the third monetary amount: ")
         do {
             monetaryAmount3 = readLine()
@@ -203,9 +203,9 @@ fun main() {
                 }
             }
         } while (!allCharAnalyzed || !validInput)
-        validInput = false
-        allCharAnalyzed = false
-        decimalCounter = 0
+//        validInput = false
+//        allCharAnalyzed = false
+//        decimalCounter = 0
         print("Please enter the fourth monetary amount: ")
         do {
             monetaryAmount4 = readLine()
@@ -262,9 +262,9 @@ fun main() {
                 }
             }
         } while (!allCharAnalyzed || !validInput)
-        validInput = false
-        allCharAnalyzed = false
-        decimalCounter = 0
+//        validInput = false
+//        allCharAnalyzed = false
+//        decimalCounter = 0
         print("Please enter the fifth monetary amount: ")
         do {
             monetaryAmount5 = readLine()
@@ -320,8 +320,8 @@ fun main() {
                 }
             }
         } while (!allCharAnalyzed || !validInput)
-        validInput = false
-        allCharAnalyzed = false
+//        validInput = false
+//        allCharAnalyzed = false
         print("Divide the value by how many? ")
         do {
             dividedByThis = readLine()
