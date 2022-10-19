@@ -1,4 +1,4 @@
-package activity_01_g
+package activity_01g
 
 import mu.KotlinLogging
 
