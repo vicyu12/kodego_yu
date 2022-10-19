@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="renamed activity 01g package">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01h/Main.kt" afterDir="false" />
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01e/Main.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -324,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666192252393</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Initial Commit">
+      <created>1666193346324</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1666193346324</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -361,8 +368,8 @@
     <MESSAGE value="Changed all values to null" />
     <MESSAGE value="Initial Commit Act1F" />
     <MESSAGE value="Shortened Code" />
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="renamed activity 01g package" />
-    <option name="LAST_COMMIT_MESSAGE" value="renamed activity 01g package" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>

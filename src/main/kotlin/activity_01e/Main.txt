@@ -1,0 +1,19 @@
+Array
+Passenger Manifest
+Energy Consumption Breakdown
+Hourly Production Rate
+
+ArrayList
+Job Order List
+SKUs/Inventory
+Organizational Chart/Employee List
+
+Set
+ID Number
+Universal Product Code
+Plate Number
+
+Map
+Operator (key) - Machine (value)
+Manpower (key) - Skillset [Category] (value)
+Netflix account (key) - Active Netflix profile *[single user] (value)
