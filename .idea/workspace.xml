@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Added KotlinLogger">
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Changed all values to null">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01f/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,14 +45,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt">
-    <configuration name="CloseFarKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="codingbat.CloseFarKt" />
-      <module name="KodeGoExercisesYu.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.MainKt (1)">
     <configuration name="IfSampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="class_activities.IfSampleKt" />
       <module name="KodeGoExercisesYu.main" />
@@ -61,6 +55,13 @@
     </configuration>
     <configuration name="LoggingKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LoggingKotlinKt" />
+      <module name="KodeGoExercisesYu.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity_01f.MainKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.LoggingKotlinKt" />
         <item itemvalue="Kotlin.UnaryOperationKt" />
         <item itemvalue="Kotlin.IfSampleKt" />
-        <item itemvalue="Kotlin.CloseFarKt" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665757935746</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Changed all values to null">
+      <created>1666005506432</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1666005506432</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -309,6 +317,7 @@
     <MESSAGE value="Optimized a little" />
     <MESSAGE value="Added Kotlin logger" />
     <MESSAGE value="Added KotlinLogger" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added KotlinLogger" />
+    <MESSAGE value="Changed all values to null" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed all values to null" />
   </component>
 </project>
