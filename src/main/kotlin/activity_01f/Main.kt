@@ -26,31 +26,23 @@ fun main() {
     } else {
         for (index in string1.indices) {
             char = string1[index].uppercaseChar()
-            if (alphabet.isEmpty()) {
+            if (alphabet.isEmpty() || char !in alphabet) {
                 alphabet.add(char)
                 letterCount.add(1)
             } else {
                 for (letterIndex in alphabet.indices) {
                     if (char == alphabet[letterIndex]) letterCount[letterIndex]++
-                    else if (char !in alphabet){
-                        alphabet.add(char)
-                        letterCount.add(1)
-                    }
                 }
             }
         }
         for (index in string2.indices) {
             char = string2[index].uppercaseChar()
-            if (alphabet.isEmpty()) {
+            if (alphabet.isEmpty() || char !in alphabet) {
                 alphabet.add(char)
                 letterCount.add(1)
             } else {
                 for (letterIndex in alphabet.indices) {
                     if (char == alphabet[letterIndex]) letterCount[letterIndex]++
-                    else if (char !in alphabet){
-                        alphabet.add(char)
-                        letterCount.add(1)
-                    }
                 }
             }
         }
