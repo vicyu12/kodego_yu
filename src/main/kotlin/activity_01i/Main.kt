@@ -19,6 +19,8 @@ fun main() {
     var untilWhenBorrowList = ArrayList<Int>()
     var borrower: String? = null
     var borrowDays: Int? = null
+    var matchIndex: Int = 0
+    var matchFound: Boolean = false
     var more: String? = null
     var close: Boolean = false
 
@@ -50,10 +52,13 @@ fun main() {
                 whoBorrowList.add("")
                 untilWhenBorrowList.add(0)
             } else {
-                for (index in bookList.indices) {
-                    if (book == bookList[index] || isbn == bookISBNList[index] || bookAuthor == bookAuthorList[index] || bookPublisher == bookPublisherList[index]) {
-
-                    } else  {
+                matchIndex = 0
+                do {
+                    if (book == bookList[matchIndex] && isbn == bookISBNList[matchIndex] && bookAuthor == bookAuthorList[matchIndex] && bookPublisher == bookPublisherList[matchIndex]) {
+                        matchFound = true
+                    }
+                    matchIndex ++
+                    if (matchIndex == bookList.size && !matchFound) {
                         bookList.add(book.toString())
                         bookISBNList.add(isbn.toString())
                         bookAuthorList.add(bookAuthor.toString())
@@ -62,11 +67,24 @@ fun main() {
                         whoBorrowList.add("")
                         untilWhenBorrowList.add(0)
                     }
-                }
+                }while(!matchFound)
+//                for (index in bookList.indices) {
+//                    if (book == bookList[index] || isbn == bookISBNList[index] || bookAuthor == bookAuthorList[index] || bookPublisher == bookPublisherList[index]) {
+//
+//                    } else  {
+//                        bookList.add(book.toString())
+//                        bookISBNList.add(isbn.toString())
+//                        bookAuthorList.add(bookAuthor.toString())
+//                        bookPublisherList.add(bookPublisher.toString())
+//                        bookAvailabilityList.add(true)
+//                        whoBorrowList.add("")
+//                        untilWhenBorrowList.add(0)
+//                    }
+//                }
             }
         }
         for (index in bookList.indices) {
-            if (book == bookList[index] || isbn == bookISBNList[index] || bookAuthor == bookAuthorList[index] || bookPublisher == bookPublisherList[index]) {
+            if (book == bookList[index] && isbn == bookISBNList[index] && bookAuthor == bookAuthorList[index] && bookPublisher == bookPublisherList[index]) {
                 if (bookAvailabilityList[index]) {
                     logger.info { "This book is available. Will the person like to proceed with borrowing this book? [Y/N]" }
                     willBorrow = readLine()
