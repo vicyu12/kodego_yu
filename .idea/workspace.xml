@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Initial Commit">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01i/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01j/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01i/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01i/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -338,7 +339,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666197543022</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Initial Commit">
+      <created>1666274632213</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1666274632213</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
