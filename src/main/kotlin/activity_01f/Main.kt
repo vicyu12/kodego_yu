@@ -15,6 +15,7 @@ fun main() {
     val letterCount = ArrayList<Int>()
     val uniqueCharacters = ArrayList<Char>()
     var char: Char? = null
+    var bothStrings: String? = null
 
     logger.info { "Enter a first string:" }
     string1 = readLine()
@@ -24,19 +25,9 @@ fun main() {
     if (string1 == null || string2 == null) {
         logger.error { "You were missing an input." }
     } else {
-        for (index in string1.indices) {
-            char = string1[index].uppercaseChar()
-            if (alphabet.isEmpty() || char !in alphabet) {
-                alphabet.add(char)
-                letterCount.add(1)
-            } else {
-                for (letterIndex in alphabet.indices) {
-                    if (char == alphabet[letterIndex]) letterCount[letterIndex]++
-                }
-            }
-        }
-        for (index in string2.indices) {
-            char = string2[index].uppercaseChar()
+        bothStrings = string1 + string2
+        for (index in bothStrings.indices) {
+            char = bothStrings[index].uppercaseChar()
             if (alphabet.isEmpty() || char !in alphabet) {
                 alphabet.add(char)
                 letterCount.add(1)
