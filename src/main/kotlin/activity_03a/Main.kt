@@ -22,11 +22,11 @@ fun main() {
     showStudents()
     logger.info { "Count of students: ${countStudent()}" }
     println()
-    logger.info { "Doing a Wild Search for: Rox, Xan, and Mike - using searchStudent Function:" }
-    logger.info { "${searchStudent("Rox", "Xan", "Mike")}"}
+    logger.info { "Doing a Wild Search for: An - using searchStudent Function:" }
+    logger.info { "${searchStudent("An")}"}
     println()
-    logger.info { "Doing a Search for: Merrill, Hector, Aella, Toma, Victor, Rox - using searchStudent Function:" }
-    logger.info { "${searchStudent("Merrill", "Hector", "Aella", "Toma", "Victor", "Rox")}" }
+    logger.info { "Doing a Search for: Merrill" }
+    logger.info { "${searchStudent("Merrill")}" }
 }
 
 fun isStudentInRecord (checkName: String): Boolean {
@@ -45,33 +45,29 @@ fun countStudent(): Int {
     return names.size
 }
 
-fun searchStudentWildSearch(vararg searchNames: String): ArrayList<String> {
+fun searchStudentWildSearch(searchName: String): ArrayList<String> {
     var matchNames: ArrayList<String> = ArrayList()
-    for (name in searchNames) {
         for (studentName in names) {
-            if (name.lowercase() in studentName.lowercase()) {
+            if (searchName.lowercase() in studentName.lowercase()) {
                 matchNames.add(studentName)
             }
         }
-    }
     return matchNames
 }
 
-fun searchStudentName(vararg searchNames: String): ArrayList<String> {
+fun searchStudentName(searchName: String): ArrayList<String> {
     var matchNames: ArrayList<String> = ArrayList()
-    for (name in searchNames) {
-        if (name in names) {
-            matchNames.add(name)
+        if (searchName in names) {
+            matchNames.add(searchName)
         }
-    }
     return matchNames
 }
 
-fun searchStudent(vararg searchNames: String): ArrayList<String> {
-    if (searchNames.size > 3) {
-        return searchStudentName(*searchNames)
+fun searchStudent(searchName: String): ArrayList<String> {
+    if (searchName.length > 3) {
+        return searchStudentName(searchName)
     }else {
-        return searchStudentWildSearch(*searchNames)
+        return searchStudentWildSearch(searchName)
     }
 }
 
