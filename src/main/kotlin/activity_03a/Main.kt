@@ -9,17 +9,22 @@ var names: ArrayList<String> = ArrayList()
 
 fun main() {
     names.addAll(listOf("Roxanne", "Asgeirr", "Aella", "Hector", "Xanthe", "Tiarnach", "Merrill", "Toma", "Annalena", "McKinley", "Leesa", "Baila", "Radhika", "Lilly","Tierney", "Morana", "Hughard", "Ami", "Jordan", "Hirsh"))
+
     logger.info { "Is Victor in the list? ${isStudentInRecord("Victor")}" }
+    println()
     logger.info { "Adding Victor to the list:" }
     addStudent("Victor")
     showStudents()
     logger.info { "Count of students: ${countStudent()}" }
+    println()
     logger.info { "Removing Victor from the list:" }
     removeStudent("Victor")
     showStudents()
     logger.info { "Count of students: ${countStudent()}" }
+    println()
     logger.info { "Doing a Wild Search for: Rox, Xan, and Mike - using searchStudent Function:" }
     logger.info { "${searchStudent("Rox", "Xan", "Mike")}"}
+    println()
     logger.info { "Doing a Search for: Merrill, Hector, Aella, Toma, Victor, Rox - using searchStudent Function:" }
     logger.info { "${searchStudent("Merrill", "Hector", "Aella", "Toma", "Victor", "Rox")}" }
 }
