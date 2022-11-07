@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Optimized">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_03a/Main.kt" afterDir="false" />
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_03b/Main.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/application_form/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_03a/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_03a/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +390,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666528154995</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Initial Commit">
+      <created>1667734117878</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1667734117878</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -427,8 +435,8 @@
     <MESSAGE value="Initial Commit Act1F" />
     <MESSAGE value="Shortened Code" />
     <MESSAGE value="renamed activity 01g package" />
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Optimized" />
-    <option name="LAST_COMMIT_MESSAGE" value="Optimized" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
