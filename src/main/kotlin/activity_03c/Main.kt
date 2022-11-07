@@ -28,7 +28,16 @@ fun main() {
 }
 
 fun addToCart(key: String, value: Int): Unit {
-    cart.put(key,value)
+
+    var suffix: Int = 0
+    var newKey: String = key
+
+    while (newKey in cart) {
+        newKey = newKey + "_" + suffix.toString()
+        suffix++
+    }
+
+    cart.put(newKey,value)
 }
 
 fun checkOut(): Int {
@@ -40,5 +49,14 @@ fun checkOut(): Int {
 }
 
 fun removeFromCart(key: String) {
-    cart.remove(key)
+    var suffix: Int = 0
+    var newKey: String = key
+    cart.remove(newKey)
+    do {
+        newKey = newKey + "_" + suffix.toString()
+        cart.remove(newKey)
+        suffix++
+    }while (newKey in cart)
+
+
 }
