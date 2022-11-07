@@ -51,10 +51,9 @@ fun checkOut(): Int {
 fun removeFromCart(key: String) {
     var suffix: Int = 0
     var newKey: String = key
-    cart.remove(newKey)
     do {
-        newKey = newKey + "_" + suffix.toString()
         cart.remove(newKey)
+        newKey = newKey + "_" + suffix.toString()
         suffix++
     }while (newKey in cart)
 
