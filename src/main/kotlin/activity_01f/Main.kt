@@ -11,10 +11,7 @@ fun main() {
 
     var string1: String? = null
     var string2: String? = null
-    val alphabet = ArrayList<Char>()
-    val letterCount = ArrayList<Int>()
-    val uniqueCharacters = ArrayList<Char>()
-    var char: Char? = null
+    var uniqueCharacters: String = ""
     var bothStrings: String? = null
 
     logger.info { "Enter a first string:" }
@@ -26,24 +23,11 @@ fun main() {
         logger.error { "You were missing an input." }
     } else {
         bothStrings = string1 + string2
-        for (index in bothStrings.indices) {
-            char = bothStrings[index].uppercaseChar()
-            if (alphabet.isEmpty() || char !in alphabet) {
-                alphabet.add(char)
-                letterCount.add(1)
-            } else {
-                for (letterIndex in alphabet.indices) {
-                    if (char == alphabet[letterIndex]) letterCount[letterIndex]++
-                }
+        for (char in bothStrings) {
+            if (char.toString().lowercase() !in uniqueCharacters.lowercase()) {
+                uniqueCharacters += char
             }
         }
     }
-    for (index in alphabet.indices) {
-        if (letterCount[index] == 1) {
-            uniqueCharacters.add(alphabet[index])
-        }
-    }
-    for (index in uniqueCharacters.indices) {
-        logger.info { "Unique character found: ${uniqueCharacters[index]}" }
-    }
+    logger.info { "Unique characters: $uniqueCharacters" }
 }
