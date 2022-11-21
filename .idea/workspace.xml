@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Improved readability of output">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_03c/Main.kt" afterDir="false" />
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Updated code">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_04a/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_04a/Student.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/application_form/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01h/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01h/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
         <option value="Kotlin File" />
       </list>
@@ -47,44 +51,37 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Victor Yu/Documents/Kotlin101&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt (4)">
-    <configuration name="ClassroomStuffKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClassroomStuffKt" />
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exercise_object_oriented_programming.MainKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+    <configuration name="MainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="activity_01f.MainKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity_03a.MainKt" />
-      <module name="KodeGoExercisesYu.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt (3)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <module name="KodeGoExercisesYu.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainKt (4)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity_03b.MainKt" />
+    <configuration name="MainKt (6)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classexercise_oop.MainKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity_01g.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="activity_04a.MainKt" />
+      <module name="KodeGoExercisesYu.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classroom_notes.PersonKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt (4)" />
-        <item itemvalue="Kotlin.MainKt (2)" />
-        <item itemvalue="Kotlin.MainKt (3)" />
-        <item itemvalue="Kotlin.ClassroomStuffKt" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.PersonKt" />
+        <item itemvalue="Kotlin.MainKt (6)" />
         <item itemvalue="Kotlin.MainKt (1)" />
+        <item itemvalue="Kotlin.MainKt (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +407,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667810233625</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Initial Commit">
+      <created>1667812648993</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1667812648993</updated>
+    </task>
+    <task id="LOCAL-00045" summary="Updated code">
+      <created>1667822989096</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1667822989096</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Updated code">
+      <created>1667823077368</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1667823077368</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Updated wildsearch and search">
+      <created>1667826551635</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1667826551635</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Updated code">
+      <created>1667981518850</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1667981518850</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -425,8 +457,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edited exercise1 package" />
-    <MESSAGE value="edited Main.kt to include exercise1" />
     <MESSAGE value="added birthdate to Main.kt&#10;updated the when function" />
     <MESSAGE value="change birthdate type" />
     <MESSAGE value="change birthdate to nullable" />
@@ -448,8 +478,10 @@
     <MESSAGE value="Shortened Code" />
     <MESSAGE value="renamed activity 01g package" />
     <MESSAGE value="Optimized" />
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Improved readability of output" />
-    <option name="LAST_COMMIT_MESSAGE" value="Improved readability of output" />
+    <MESSAGE value="Initial Commit" />
+    <MESSAGE value="Updated wildsearch and search" />
+    <MESSAGE value="Updated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated code" />
   </component>
 </project>

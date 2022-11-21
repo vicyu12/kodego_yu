@@ -10,7 +10,6 @@ fun main() {
     var lowerNumber: Int? = null
     var biggerNumber: Int? = null
     var isPrimeNumber: Boolean = true
-    var primeNumber = ArrayList<Int>()
 
     logger.info { "Please input an integer:" }
     firstNumber = readLine()?.toIntOrNull()
