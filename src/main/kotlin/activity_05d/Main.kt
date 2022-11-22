@@ -4,6 +4,8 @@ fun main() {
     val players: ArrayList<Player> = ArrayList()
     var winCondition: Boolean = false
     var board: Board = Board()
+    var snakes: Snakes = Snakes()
+    var ladders: Ladders = Ladders()
 
     var victor: Player = Player()
     victor.name = "Victor"
@@ -28,8 +30,8 @@ fun main() {
     println()
 
     board.clearBoard()
-    board.generateSnakes()
-    board.generateLadders()
+    snakes.generateSnakesAndLadders(board)
+    ladders.generateSnakesAndLadders(board)
 
     println()
 

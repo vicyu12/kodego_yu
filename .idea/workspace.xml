@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Updated code">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_04a/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_04a/Student.kt" afterDir="false" />
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Initial Commit">
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/application_form/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_01h/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_01h/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_05d/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_05d/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_05d/SnakeAndLadders.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_05d/SnakeAndLadders.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Victor Yu/Documents/Kotlin101&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt">
+  <component name="RunManager" selected="Kotlin.MainKt (2)">
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exercise_object_oriented_programming.MainKt" />
       <module name="KodeGoExercisesYu.main" />
@@ -59,8 +58,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt (5)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity_01f.MainKt" />
+    <configuration name="MainKt (2)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity_05d.MainKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -89,11 +88,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (2)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.PersonKt" />
         <item itemvalue="Kotlin.MainKt (6)" />
         <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Kotlin.MainKt (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -105,20 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665056054429</updated>
-    </task>
-    <task id="LOCAL-00001" summary="Initial Commit">
-      <created>1665057010518</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1665057010518</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Initial Commit">
-      <created>1665057053731</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1665057053731</updated>
     </task>
     <task id="LOCAL-00003" summary="added exercise1 package&#10;added Main.kt in exercise1">
       <created>1665059694187</created>
@@ -442,7 +427,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667981518850</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Initial Commit">
+      <created>1669042245332</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1669042245332</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Dunno what changed here">
+      <created>1669042315431</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1669042315432</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Initial Commit">
+      <created>1669053992672</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1669053992673</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -457,7 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added birthdate to Main.kt&#10;updated the when function" />
     <MESSAGE value="change birthdate type" />
     <MESSAGE value="change birthdate to nullable" />
     <MESSAGE value="changed all var values to null" />
@@ -479,9 +484,10 @@
     <MESSAGE value="renamed activity 01g package" />
     <MESSAGE value="Optimized" />
     <MESSAGE value="Improved readability of output" />
-    <MESSAGE value="Initial Commit" />
     <MESSAGE value="Updated wildsearch and search" />
     <MESSAGE value="Updated code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated code" />
+    <MESSAGE value="Dunno what changed here" />
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
 </project>
