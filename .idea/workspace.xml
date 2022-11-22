@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Initial Commit">
+    <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Used HashSet for Search Array">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_04b/Books.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/application_form/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_05d/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_05d/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_05d/SnakeAndLadders.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_05d/SnakeAndLadders.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
       <list>
         <option value="Kotlin Enum" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin File" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -104,20 +104,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665056054429</updated>
-    </task>
-    <task id="LOCAL-00003" summary="added exercise1 package&#10;added Main.kt in exercise1">
-      <created>1665059694187</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1665059694187</updated>
-    </task>
-    <task id="LOCAL-00004" summary="edited exercise1 package">
-      <created>1665059833416</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1665059833416</updated>
     </task>
     <task id="LOCAL-00005" summary="edited Main.kt to include exercise1">
       <created>1665061448516</created>
@@ -448,7 +434,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669053992673</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Added Polymorphism">
+      <created>1669096241920</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1669096241921</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Used HashSet for Search Array">
+      <created>1669120655175</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1669120655176</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -463,8 +463,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="change birthdate type" />
-    <MESSAGE value="change birthdate to nullable" />
     <MESSAGE value="changed all var values to null" />
     <MESSAGE value="Initial Commit Activity01A" />
     <MESSAGE value="activity complete" />
@@ -488,6 +486,8 @@
     <MESSAGE value="Updated code" />
     <MESSAGE value="Dunno what changed here" />
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Added Polymorphism" />
+    <MESSAGE value="Used HashSet for Search Array" />
+    <option name="LAST_COMMIT_MESSAGE" value="Used HashSet for Search Array" />
   </component>
 </project>

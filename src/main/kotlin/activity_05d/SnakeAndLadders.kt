@@ -1,6 +1,6 @@
 package activity_05d
 
-open class Player() {
+class Player() {
     var name: String = "Player"
     var finished: Boolean = false
         private set(value) {
