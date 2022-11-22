@@ -3,7 +3,7 @@ package activity_04a
 fun main() {
     val students: ArrayList<Student> = ArrayList()
     val wildSearch: StudentSearch = StudentSearch(students)
-    var searchResult: ArrayList<Student> = ArrayList()
+    var searchResult: HashSet<Student> = HashSet()
 
     val audrina: Student = Student("Audrina", "Chang", "22001", 2022)
     val mollie: Student = Student("Mollie", "Castillo", "22002", 2022)
@@ -25,6 +25,7 @@ fun main() {
     val andres: Student = Student("Andres", "Mayo", "22018", 2022)
     val alice: Student = Student("Alice", "Yoder", "22019", 2022)
     val haley: Student = Student("Haley", "Curry", "22020", 2022)
+    val arvin: Student = Student("Arvin", "Arf", "22021",2022)
 
     audrina.addStudent(students)
     mollie.addStudent(students)
@@ -46,8 +47,9 @@ fun main() {
     andres.addStudent(students)
     alice.addStudent(students)
     haley.addStudent(students)
+    arvin.addStudent(students)
 
-    println("List of 20 students:")
+    println("List of 21 students:")
     students.forEach { println("${it.lastName}, ${it.firstName}") }
     println("Wild Search for 'ar' results")
     searchResult = wildSearch.searchStudentWildSearch("ar")

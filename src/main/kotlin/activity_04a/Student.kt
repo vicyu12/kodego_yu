@@ -18,8 +18,8 @@ class Student (firstName: String, lastName: String, idNumber: String, yearEnroll
 class StudentSearch(studentList: ArrayList<Student>) {
     var students: ArrayList<Student> = studentList
 
-    fun searchStudentWildSearch(searchName: String): ArrayList<Student> {
-        var matchNames: ArrayList<Student> = ArrayList()
+    fun searchStudentWildSearch(searchName: String): HashSet<Student> {
+        var matchNames: HashSet<Student> = HashSet()
         for (index in students.indices) {
             if (searchName.lowercase() in students[index].firstName.lowercase() || searchName.lowercase() in students[index].lastName.lowercase()) {
                 matchNames.add(students[index])
@@ -28,8 +28,8 @@ class StudentSearch(studentList: ArrayList<Student>) {
         return matchNames
     }
 
-    fun searchStudentWildSearch(searchName: String, searchParameter: String): ArrayList<Student> {
-        val matchNames: ArrayList<Student> = ArrayList()
+    fun searchStudentWildSearch(searchName: String, searchParameter: String): HashSet<Student> {
+        val matchNames: HashSet<Student> = HashSet()
         val searchParameter: String = searchParameter
         when(searchParameter) {
             "firstname" -> {
