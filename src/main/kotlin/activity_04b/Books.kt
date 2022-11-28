@@ -1,7 +1,5 @@
 package activity_04b
 
-import activity_03b.bookNames
-import java.sql.Time
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -137,7 +135,7 @@ class AudioVideoRecording(title: String, publisher: String) {
     var hasAudio: Boolean = false
 }
 
-class Publisher(name: String) {
+open class Publisher(name: String) {
     val name: String = name
     var address: String = ""
     var dateEST: Date = Date()
