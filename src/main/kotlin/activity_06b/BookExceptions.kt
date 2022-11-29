@@ -200,7 +200,7 @@ class Borrowing(borrower: Borrower, vararg libraryItem: LibraryItem) {
             }catch(e:BookExceptions.BookStatusExceptions.ForFixing){
                 e.printStackTrace()
             }finally {
-                if (borrower.borrowList.size > 5) {
+                if (borrower.borrowList.size >= 5) {
                     borrower.borrowerStatus = BorrowerStatus.TOO_MANY_ITEMS_BORROWED
                     checkBorrowerStatus()
                 }
