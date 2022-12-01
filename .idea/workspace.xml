@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6996782-5612-4f20-9a29-01f23fc10d96" name="Changes" comment="Initial Commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/activity_07c/UnitTesting.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/application_form/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/activity_07c/UnitTesting.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_06a/GradeExceptions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_06a/GradeExceptions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/activity_06c/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/activity_06c/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -41,24 +53,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Victor Yu/Documents/Kotlin101",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Victor Yu/Documents/Kotlin101&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Victor Yu\Documents\KodeGo\KodeGoExercisesYu\src\main\kotlin\activity_04c" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.GradeExceptionsKt">
-    <configuration name="CalculatorTester" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Kotlin.MainKt">
+    <configuration name="UnitTesting" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -71,7 +83,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;CalculatorTester&quot;" />
+            <option value="&quot;activity_07c.UnitTesting&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -81,7 +93,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SampleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UnitTesting.CartIsEmpty" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -94,7 +106,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SampleTest&quot;" />
+            <option value="&quot;activity_07c.UnitTesting.CartIsEmpty&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -104,7 +116,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="SampleTest.checkCellNumberLength" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="UnitTesting.NoVarietySelected" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -117,7 +129,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;SampleTest.checkCellNumberLength&quot;" />
+            <option value="&quot;activity_07c.UnitTesting.NoVarietySelected&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -127,15 +139,31 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GradeExceptionsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity_06a.GradeExceptionsKt" />
-      <module name="KodeGoExercisesYu.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="UnitTesting.StockOut" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;activity_07c.UnitTesting.StockOut&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
     </configuration>
-    <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="activity_05c.MainKt" />
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="activity_01f.MainKt" />
       <module name="KodeGoExercisesYu.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.GradeExceptionsKt" />
-        <item itemvalue="Kotlin.MainKt (1)" />
-        <item itemvalue="Gradle.CalculatorTester" />
-        <item itemvalue="Gradle.SampleTest.checkCellNumberLength" />
-        <item itemvalue="Gradle.SampleTest" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Gradle.UnitTesting" />
+        <item itemvalue="Gradle.UnitTesting.NoVarietySelected" />
+        <item itemvalue="Gradle.UnitTesting.StockOut" />
+        <item itemvalue="Gradle.UnitTesting.CartIsEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -159,34 +187,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665056054429</updated>
-    </task>
-    <task id="LOCAL-00013" summary="activity complete">
-      <created>1665214659392</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1665214659392</updated>
-    </task>
-    <task id="LOCAL-00014" summary="activity complete">
-      <created>1665215374789</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1665215374789</updated>
-    </task>
-    <task id="LOCAL-00015" summary="activity complete">
-      <created>1665243414703</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1665243414703</updated>
-    </task>
-    <task id="LOCAL-00016" summary="codingbat">
-      <created>1665403118492</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1665403118492</updated>
     </task>
     <task id="LOCAL-00017" summary="Initial Commit (Accepts Int Only)">
       <created>1665410235436</created>
@@ -503,7 +503,35 @@
       <option name="project" value="LOCAL" />
       <updated>1669636462438</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Added Activity 5A in the Code">
+      <created>1669637204163</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1669637204163</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Initial Commit">
+      <created>1669650514838</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1669650514838</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Fixed Logic">
+      <created>1669721983100</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1669721983100</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Initial Commit">
+      <created>1669799546360</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1669799546360</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -518,8 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="activity complete" />
-    <MESSAGE value="codingbat" />
     <MESSAGE value="Initial Commit (Accepts Int Only)" />
     <MESSAGE value="Version 2 (Accepting 2 decimals for monetary value)" />
     <MESSAGE value="Fix on INT input" />
@@ -542,6 +568,8 @@
     <MESSAGE value="Used HashSet for Search Array" />
     <MESSAGE value="Fixes" />
     <MESSAGE value="Minor Changes" />
+    <MESSAGE value="Added Activity 5A in the Code" />
+    <MESSAGE value="Fixed Logic" />
     <MESSAGE value="Initial Commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>

@@ -19,7 +19,7 @@ fun main() {
     pampano.quantity = 1.0
 
     var cart: Cart = Cart(victorYu)
-    cart.addItems(itemWithNoTag)
+//    cart.addItems(itemWithNoTag)
     cart.addItems(chicken)
     cart.addItems(pampano)
 
